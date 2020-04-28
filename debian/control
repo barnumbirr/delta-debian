@@ -1,0 +1,21 @@
+Source: delta
+Section: utils
+Priority: optional
+Maintainer: Martin Simon <me@martinsimon.me>
+Build-Depends:
+ cargo:native,
+ debhelper (>= 11),
+ libclang-6.0-dev,
+ llvm,
+ rustc:native,
+Standards-Version: 4.5.0
+Homepage: https://github.com/dandavison/delta
+
+Package: delta
+Architecture: amd64
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: A syntax-highlighter for git and diff output
+ Delta provides language syntax-highlighting, within-line insertion/deletion
+ detection, and restructured diff output for git on the command line.
