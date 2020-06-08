@@ -1,4 +1,4 @@
-Source: delta
+Source: delta-diff
 Section: utils
 Priority: optional
 Maintainer: Martin Simon <me@martinsimon.me>
@@ -11,7 +11,7 @@ Build-Depends:
 Standards-Version: 4.5.0
 Homepage: https://github.com/dandavison/delta
 
-Package: delta
+Package: delta-diff
 Architecture: amd64
 Depends:
  ${misc:Depends},
