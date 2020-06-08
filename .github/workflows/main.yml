@@ -15,16 +15,16 @@ jobs:
           set -xe
           mkdir -p assets
           ./build.sh -i debian:buster-slim
-          rename.ul .deb _debian_buster.deb target/delta_*.deb
-          mv -n target/delta_*.deb assets/
+          rename.ul .deb _debian_buster.deb target/delta-diff_*.deb
+          mv -n target/delta-diff_*.deb assets/
 
           ./build.sh -i debian:testing-slim
-          rename.ul .deb _debian_testing.deb target/delta_*.deb
-          mv -n target/delta_*.deb assets/
+          rename.ul .deb _debian_testing.deb target/delta-diff_*.deb
+          mv -n target/delta-diff_*.deb assets/
 
           ./build.sh -i debian:unstable-slim
-          rename.ul .deb _debian_unstable.deb target/delta_*.deb
-          mv -n target/delta_*.deb assets/
+          rename.ul .deb _debian_unstable.deb target/delta-diff_*.deb
+          mv -n target/delta-diff_*.deb assets/
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
