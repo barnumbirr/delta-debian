@@ -1,6 +1,7 @@
 delta-diff (0.1.1-2) unstable; urgency=medium
 
-  * Version 0.1.1
+  * update package name
+  * replace libclang-6.0-dev with libclang-dev dependency package providing the default libclang libraries and headers
 
  -- Martin Simon <me@martinsimon.me>  Tue, 9 Jun 2020 00:00:00 +0000
 
