@@ -10,6 +10,6 @@ override_dh_auto_build:
 	cargo build --release
 
 override_dh_auto_install:
-	install -Dm04755 "target/release/delta" "debian/delta/usr/bin/delta"
-	strip "debian/delta/usr/bin/delta"
-	install -Dm0644 "completion/bash/completion.sh" "debian/delta/usr/share/bash-completion/completions/delta"
+	install -Dm04755 "target/release/delta" "debian/delta-diff/usr/bin/delta"
+	strip "debian/delta-diff/usr/bin/delta"
+	install -Dm0644 "completion/bash/completion.sh" "debian/delta-diff/usr/share/bash-completion/completions/delta-diff"
