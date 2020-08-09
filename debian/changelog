@@ -1,3 +1,9 @@
+delta-diff (0.4.1-1) unstable; urgency=medium
+
+  * Version 0.4.1
+
+ -- Martin Simon <me@martinsimon.me>  Sun, 09 Aug 2020 00:00:00 +0000
+
 delta-diff (0.4.0-1) unstable; urgency=medium
 
   * Version 0.4.0
