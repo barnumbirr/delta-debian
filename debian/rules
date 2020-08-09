@@ -12,4 +12,4 @@ override_dh_auto_build:
 override_dh_auto_install:
 	install -Dm04755 "target/release/delta" "debian/delta-diff/usr/bin/delta"
 	strip "debian/delta-diff/usr/bin/delta"
-	install -Dm0644 "completion/completion.bash" "debian/delta-diff/usr/share/bash-completion/completions/delta-diff"
+	install -Dm0644 "etc/completion/completion.bash" "debian/delta-diff/usr/share/bash-completion/completions/delta-diff"
