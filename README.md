@@ -9,7 +9,7 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname$ ./build.sh
 ```
-By default this will build delta 0.4.4 on Debian Buster.
+By default this will build delta 0.4.5 on Debian Buster.
 Since v0.1.1-2 , the package has been renamed `delta-diff` (see discussion in [issue #1](https://github.com/barnumbirr/delta-debian/issues/1)).
 The executable is still called `delta` however.
 
