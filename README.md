@@ -9,14 +9,14 @@ If you have [Docker](https://www.docker.com/) installed locally, just run the fo
 ```bash
 user@hostname$ ./build.sh
 ```
-By default this will build delta 0.5.0 on Debian Buster.
+By default this will build delta 0.6.0 on Debian Buster.
 Since v0.1.1-2 , the package has been renamed `delta-diff` (see discussion in [issue #1](https://github.com/barnumbirr/delta-debian/issues/1)).
 The executable is still called `delta` however.
 
 If you want to customize the build at runtime, use the following:
 
 ```bash
-user@hostname$ ./build.sh -i debian:unstable-slim -v 0.1.1
+user@hostname$ ./build.sh -i debian:unstable-slim -v 0.5.0
 ```
 Don't forget to update `debian/changelog` so your package is generated with the correct version.
 
@@ -30,7 +30,7 @@ To publish a new package version to Github, follow these steps:
 ## License
 
 ```
-Copyright (c) 2020 Martin Simon
+Copyright (c) 2020-2021 Martin Simon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

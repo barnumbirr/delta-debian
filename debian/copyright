@@ -7,12 +7,12 @@ Copyright: 2020 Dan Davison
 License: MIT License
 
 Files: debian/*
-Copyright: 2020 Martin Simon <me@martinsimon.me>
+Copyright: 2020-2021 Martin Simon <me@martinsimon.me>
 License: MIT License
 
 License: MIT License
 
- Copyright (c) 2020 Martin Simon
+ Copyright (c) 2020-2021 Martin Simon
 
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal

@@ -4,7 +4,7 @@ set -eu
 
 IMAGE="debian:buster-slim"
 TARGET="$(dirname "$0" | xargs realpath)"
-VERSION="0.5.0"
+VERSION="0.6.0"
 
 while getopts "v:i:h" opt
 do
