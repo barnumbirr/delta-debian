@@ -1,3 +1,11 @@
+delta-diff (0.7.1-1) unstable; urgency=medium
+
+  * Version 0.7.1
+  * Upstream skipped version 0.7.0 and superseeded version 0.6.1 with
+  version 0.7.1 less than an hour after release
+
+ -- Martin Simon <me@martinsimon.me>  Tue, 30 Mar 2021 00:00:00 +0000
+
 delta-diff (0.6.0-1) unstable; urgency=medium
 
   * Version 0.6.0
